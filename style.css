@@ -26,3 +26,22 @@ main{
     align-items:center;
     margin:auto;
 }
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height:1.1;
+    margin-bottom: 2rem;
+}
+h2{
+    font-size: 14px;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+h2 span{
+    font-weight: 300;
+}
+.text-div{
+    color: #FFF;
+    width:50%;
+    margin-right: 2rem;
+}
