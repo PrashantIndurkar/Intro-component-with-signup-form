@@ -45,3 +45,94 @@ h2 span{
     width:50%;
     margin-right: 2rem;
 }
+.offer{
+    background-color: var(--Blue);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.signup-div{
+    width:50%;
+}
+input{
+    width:100%;
+    padding:1rem;
+    border:1px solid var(--GrayishBlue);
+    border-radius:5px;
+    margin-bottom:15px;
+}
+form{
+    background-color: #fff;
+    padding:2rem;
+    border-radius: 10px;
+}
+form-div{
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+button {
+    width: 100%;
+    background-color: var(--Green);
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+a {
+    color: var(--DarkBlue);
+  }
+  footer {
+    margin-top: auto;
+  }
+  /* media query */
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 2rem;
+    }
+    main {
+      width: 80%;
+    }
+  }
+  .terms-services {
+    font-size: 10px;
+    color: var(--GrayishBlue);
+    text-align: center;
+    font-weight: 500;
+    margin-top: 0.8rem;
+  }
+  .terms-services span {
+    color: var(--Red);
+    font-weight: 600;
+  }
+  .attribution {
+    text-align: center;
+    color: #fff;
+    margin-top: -18px;
+  }
+
+
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      margin: 5rem auto;
+      height: auto;
+    }
+    .text-div {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 3rem;
+      margin-right: 0;
+    }
+    .signup-div {
+      width: 100%;
+    }
+  
+    body {
+      background-image: url("images/bg-intro-mobile.png");
+    }
+  }
